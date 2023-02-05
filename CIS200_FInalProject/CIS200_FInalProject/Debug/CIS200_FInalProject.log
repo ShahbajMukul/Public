@@ -1,0 +1,104 @@
+﻿  customerInfo.cpp
+  date.cpp
+  itemAmount.cpp
+  itemPrice.cpp
+  main.cpp
+D:\C++ Projects\CIS 200 projects 2022\CIS200_FInalProject\CIS200_FInalProject\main.cpp(104,29): warning C4305: 'argument': truncation from 'double' to 'const float'
+D:\C++ Projects\CIS 200 projects 2022\CIS200_FInalProject\CIS200_FInalProject\main.cpp(105,27): warning C4305: 'argument': truncation from 'double' to 'const float'
+D:\C++ Projects\CIS 200 projects 2022\CIS200_FInalProject\CIS200_FInalProject\main.cpp(106,27): warning C4305: 'argument': truncation from 'double' to 'const float'
+D:\C++ Projects\CIS 200 projects 2022\CIS200_FInalProject\CIS200_FInalProject\main.cpp(107,28): warning C4305: 'argument': truncation from 'double' to 'const float'
+D:\C++ Projects\CIS 200 projects 2022\CIS200_FInalProject\CIS200_FInalProject\main.cpp(109,45): warning C4305: 'argument': truncation from 'double' to 'const float'
+D:\C++ Projects\CIS 200 projects 2022\CIS200_FInalProject\CIS200_FInalProject\main.cpp(110,24): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\utility(172,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xmemory(673,1): message : see reference to function template instantiation 'std::pair<const std::string,float>::pair<const char(&)[5],_Ty,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=double,
+              _Other1=const char (&)[5],
+              _Other2=double
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xmemory(680,47): message : see reference to function template instantiation 'std::pair<const std::string,float>::pair<const char(&)[5],_Ty,0>(_Other1,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=double,
+              _Other1=const char (&)[5],
+              _Other2=double
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(806,1): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const char(&)[5],double>(_Alloc &,_Objty *const ,const char (&)[5],double &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,float>>>::void_pointer>>,
+              _Ty=std::pair<const std::string,float>,
+              _Objty=std::pair<const std::string,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(807,34): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const char(&)[5],double>(_Alloc &,_Objty *const ,const char (&)[5],double &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,float>>>::void_pointer>>,
+              _Ty=std::pair<const std::string,float>,
+              _Objty=std::pair<const std::string,float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(994,20): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<const char(&)[5],_Ty>(_Alnode &,std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,const char (&)[5],_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,float>>,
+              _Ty=double,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,float>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(1010,46): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<const char(&)[5],_Ty>(_Alnode &,std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,const char (&)[5],_Ty &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,float>>,
+              _Ty=double,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,float>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(1031,20): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<const char(&)[5],double>(const char (&)[5],double &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,float>>,
+              _Kty=std::string,
+              _Ty=float,
+              _Pr=std::less<std::string>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xtree(1032,30): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const std::string,float>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<const char(&)[5],double>(const char (&)[5],double &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const std::string,float>>,
+              _Kty=std::string,
+              _Ty=float,
+              _Pr=std::less<std::string>
+          ]
+D:\C++ Projects\CIS 200 projects 2022\CIS200_FInalProject\CIS200_FInalProject\main.cpp(24,35): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,float>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<const char(&)[5],double>(const char (&)[5],double &&)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=float,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,float>>
+          ]
+D:\C++ Projects\CIS 200 projects 2022\CIS200_FInalProject\CIS200_FInalProject\main.cpp(24,22): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const std::string,float>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<const char(&)[5],double>(const char (&)[5],double &&)' being compiled
+          with
+          [
+              _Kty=std::string,
+              _Ty=float,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,float>>
+          ]
+  shoppingItem.cpp
+  time.cpp
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall customerInfo<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::customerInfo<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(void)" (??0?$customerInfo@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QAE@XZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: __thiscall customerInfo<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::~customerInfo<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >(void)" (??1?$customerInfo@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QAE@XZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall customerInfo<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::insertItemEnd(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?insertItemEnd@?$customerInfo@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall customerInfo<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::insertItemStart(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?insertItemStart@?$customerInfo@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QAEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall customerInfo<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::print(void)" (?print@?$customerInfo@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QAEXXZ) referenced in function _main
+main.obj : error LNK2019: unresolved external symbol "public: void __thiscall customerInfo<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >::sort(void)" (?sort@?$customerInfo@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@@QAEXXZ) referenced in function _main
+D:\C++ Projects\CIS 200 projects 2022\CIS200_FInalProject\Debug\CIS200_FInalProject.exe : fatal error LNK1120: 6 unresolved externals
